@@ -1,7 +1,12 @@
+sudo -u
+
 # Install chrome,code,discord,slack and dbeaver
 
 sudo apt-get install snapd -y
 sudo snap install slack --classic
+sudo snap install postman
+sudo snap install htop
+sudo snap install telegram-desktop
 
 # Download .deb package
 mkdir install_dpkg
@@ -26,3 +31,5 @@ sudo apt-get install git -y
 git config --global user.name "Your User"
 git config --global user.email user@mail.com
 
+# Gnome-Tweaks
+sudo apt install gnome-tweaks -y
